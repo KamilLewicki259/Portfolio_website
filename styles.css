@@ -1,0 +1,44 @@
+body
+{
+	background-color: grey;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+
+
+}
+.wrapper > div
+{
+	border-radius: 5px;
+  	background-color: rgb(186, 186, 186);
+  	padding: 1em;
+}
+
+.wrapper
+{
+	display: flex;
+	gap: 10px;
+}
+#skills
+{
+	border-radius: 5px;
+	background-color: dimgrey;
+
+	padding: 2em;
+}
+.first-card
+{
+	color: grey;
+}
+img
+{
+	padding-left: 300px;
+}
+#experience-card
+{
+	border-radius: 90px;
+	background: blueviolet;
+	width: 355px;
+	height: 650px;
+}
