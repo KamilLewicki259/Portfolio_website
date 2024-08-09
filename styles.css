@@ -16,10 +16,6 @@ body {
 	display: flex;
 	gap: 10px;
 }
-
-#skills {
-	background-color: dimgrey;
-}
 .flex-container {
     display: flex; /* Enables Flexbox layout */
     flex-wrap: wrap;
@@ -30,6 +26,7 @@ body {
 
 .box {
     flex: 1; /* Allows the boxes to grow equally */
+    border-radius: 25px;
     margin: 0 10px; /* Adds space between the boxes */
     background-color: blueviolet; /* Sets background color */
     text-align: center; /* Centers text horizontally */
@@ -37,4 +34,13 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 1.0); /* Adds shadow to the boxes */
     color: white; /* Sets text color for contrast */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    align-self: flex-start; /* aligns the content of each item to its size */
+}
+.alert {
+	text-align: center;
+	margin-right: 450px;
+	margin-left: 450px;
+}
+#completed {
+	color: darkgreen;
 }
