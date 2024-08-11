@@ -1,9 +1,10 @@
 body {
 	background-color: grey;
 	padding-top: 100px;
-	padding-left: 50px;
-	padding-right: 100px;
-	padding-bottom: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 150px;
+	max-width: 2550px;
 }
 
 .wrapper > div {
@@ -26,21 +27,26 @@ body {
 
 .box {
     flex: 1; /* Allows the boxes to grow equally */
+    justify-content: center;
     border-radius: 25px;
     margin: 0 10px; /* Adds space between the boxes */
     background-color: blueviolet; /* Sets background color */
     text-align: center; /* Centers text horizontally */
     padding: 20px; /* Adds padding inside each box */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 1.0); /* Adds shadow to the boxes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0); /* Adds shadow to the boxes */
     color: white; /* Sets text color for contrast */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
     align-self: flex-start; /* aligns the content of each item to its size */
 }
 .alert {
 	text-align: center;
-	margin-right: 450px;
-	margin-left: 450px;
+	margin-right: 150px;
+	margin-left: 550px;
 }
 #completed {
 	color: darkgreen;
 }
+#about-me {
+	text-align: center;
+}
+
