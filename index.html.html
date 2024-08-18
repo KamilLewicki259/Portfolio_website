@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Kamil's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+<body>
+  <h1>Portfolio</h1>
+    <h2>Web Developer | Game Developer</h2>
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Envision Studio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./public/Game-Development-Experience.html">Game Development</a></li>
+                            <li><a class="dropdown-item" href="./public/3D-Assets-In-Blender.html">3D Modelling</a></li>
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">Under Review</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Game Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:tomato;" class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End-->
+    <hr>
+    <button id="myButton">Click me for alert</button>
+    <div>
+      <h3 id="about-me">About me</h3>
+      <p>I'm a passionate developer with a deep love for both game and web development, constantly honing my skills to become a full-stack developer. My journey in coding started with a fascination for creating immersive game worlds, which led me to explore the intricacies of web development. When I'm not coding, you'll likely find me venturing into thick forests, where I draw inspiration from the wilderness, or practicing Wing Chun, a martial art that has become a way of life for me. This blend of creative exploration and disciplined practice fuels my drive to develop engaging digital experiences. Whether I’m crafting a new game or refining a web application, I’m always eager to learn, grow, and push the boundaries of what’s possible.</p>
+    </div>
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">All technological skills</h1>
+            <p id="skills"><span id="completed" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML experience (2 years)">HTML</span>| <span id="completed">CSS</span> | JavaScript 6E | <span id="completed">C#</span>| React | Angular | jQuery | <span id="completed">Bootstrap V5.3</span> | MangoDB | Web3 | DPass | Mongoose | Unity game engine | DaVinci Resolve | Blender 3D | GitHub | <span id="completed">FlexBox</span></p>
+        </div>
+        <div id="liveAlertPlaceHolder"></div>
+    <h3><u>All Technological Skills</u></h3>
+    <hr>
+<div class="flex-container">
+  <div class="box">
+    <h3>Game Development Portfolio</h3>
+    <p>With the theoretical as well as practical languages and framework experience, I’ve undertaken numerous personal projects that have served as a great learning experience, some of them include a 3D game which is currently still ongoing within the Unity game engine as well as multiple multi-page websites.</p>
+    <ul>
+        <li><u>Project 1</u>: Focussing on gameplay mechanics as well as story with an RPG style game is still ongoing, being updated regularly the more I learn within the game industry.</li>
+        <li><u>Project 2</u>: Focusing on the gameplay aspects and less so on the story, this project is an FPS style game which is being updated as my skills develop.</li>
+        <li><u>Project 3</u>: A website which houses my portfolio as well as an insight into my life and my projects. This can also be used as a hub for my projects and its updates.</li>
+        <li><u>Project 4</u>: As a member of a small team of like-minded people, I’m undertaking more complex 3D asset modeling to sharpen my artistic skills. This goes hand in hand with my project 1 and 2 which also uses a lot of 3D assets.</li>
+        <li>Experience with lighting, VFX, animation, texture mapping, and 3D modeling.</li>
+    </ul>
+    <p>These projects are available for review by any interviewer upon request. Along with these projects, I’ve participated in different challenges like game jams which usually put you up against the clock.</p>
+    <button id="moreInfoButton3">click here for more information</button>
+  </div>
+  <div class="box">
+    <h3>Blender 3D modelling experience</h3>
+    <ul>
+      <li>Solid working knowledge of Substance Painter, Blender and Photoshop</li>
+      <li>Good working knowledge of relevant 3D software with dynamics tools (e.g. Blender)</li>
+      <li>Experience in creating high quality assets for real time rendering applications.</li>
+      <li>Experience with lighting, VFX, animation, texture mapping and 3D modelling.</li>
+      <li>Experience in High to Low Poly workflows.</li>
+      <li>Experience with fixing artefacts and topology issues.</li>
+    </ul>
+      <button id="moreInfoButton1">click here for more information</button>
+  </div>
+  <div class="box">
+    <h3>Relevent job experience</h3>
+    <h5>Build a Rocket Boy Player Services (September 2023 - February 2024)</h4>
+      <ul>
+        <li>Build a design interactible and compelling maps within their User Generated Content (UGC) builder.</li>
+        <li>Collect and file bug and feedback for QA reports</li>
+        <li>Documenting Tech, gameplay and other projects that the studio was working on within the studios internal knoweledge base</li>
+        <li>Research and present information in front of the whole team</li>
+        <li>Respond directly to player questions and technical issues within Discrod and Zandesk</li>
+        <li>Extensive use of Jira, Miro and other Micsosoft software packlages like Powerpoint and Excell</li>
+        <li>Collaborating with a team to bring the best player services practices to the live enviournment</li>
+      </ul>
+        <button id="moreInfoButton2">click here for more information</button>
+  </div>
+</div>
+<a href="./public/about.html">About Me</a>
+<a href="./public/contact.html">Contact Me</a>
+<!-- JavaScript link (External file) -->
+<script src="index.js" charset="UTF-8"></script>
+<!--Popper.js JavaScript link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<!--Bootstrap.js JavaScript link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerE1) {
+      return new bootstrap.Tooltip(tooltipTriggerE1)
+    })
+  })
+</script>
+
+
+<!-- TODO -->
+<!-- Add a container to parts of code that need it -->
+</body>
+    
+
+
+</html>
